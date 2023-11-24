@@ -1,5 +1,6 @@
 import React from 'react'
-import NavBar from './components/NavBar'
+
+import NavbarNew from './components/NavbarNew'
 import Hero from './components/Hero'
 import ListProfileCard from './components/ListProfileCard'
 import './App.css'
@@ -13,7 +14,7 @@ function App() {
   return (
     <>
     
-     <NavBar/>
+     <NavbarNew/>
      <Hero/>
      <ListProfileCard/>
      <Home/>
