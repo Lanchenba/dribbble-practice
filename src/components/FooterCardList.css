@@ -1,0 +1,8 @@
+.footer-list{
+    /* border-radius: 50px; */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 50px;
+    justify-content: center;
+}

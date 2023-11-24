@@ -1,0 +1,19 @@
+.home-card-container{
+    border-radius: 15px;
+    margin-top: 10px;
+    display: flex;
+    align-items: end;
+}
+.home-card-title{
+    color: beige;
+    margin: 10px 15px;
+    display: none;
+}
+.home-card-container:hover .home-card-title {
+    display: block;
+  }
+
+  .home-name{
+    margin-top: 5px;
+  }
+  

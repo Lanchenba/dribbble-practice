@@ -1,0 +1,36 @@
+.home-container{
+    margin-top: 100px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    /* background-color: yellow; */
+    margin-left:32% ;
+    margin-right: 32%;
+}
+.home-container >h2{
+    align-items: center;
+}
+.cards{
+    margin-top: 50px;
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.home-bottom{
+    margin-top: 50px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 35px;
+    padding: 20px 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    /* height: 30px; */
+}

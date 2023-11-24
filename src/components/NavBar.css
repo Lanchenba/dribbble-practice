@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500;1,600&display=swap');
+body{
+  background-color: #F8F7F4;
+}
+/* .nav-conatianer>div{
+    background-color: orangered;
+} */
+.nav-conatianer{
+    display: grid;
+    grid-template-columns: 1fr 4fr  2fr;
+    grid-template-rows: auto;
+    grid-gap: 0;
+}
+.nav1{
+    margin-left: 0;
+}
+.nav2{
+    grid-row: 1;
+}
+.navbar {
+    background-color: #F8F7F4;
+    color: #111026;
+    padding: 15px;
+    /* box-shadow: 0 2px 5px #F8F7F4; */
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+    font-size: 13px;
+    
+  }
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  /* Dropdown styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 0.5px solid transparent;
+    border-radius: 30px;
+    z-index: 1;
+    height: 70px;
+    width: 250px;
+
+    padding-left: 20px  ;
+    padding-right: 20px;
+  }
+  
+  .dropdown-content a {
+    color: #111026;
+    /* padding: 20px 25px; */
+    text-decoration: none;
+    display: block;
+    
+  }
+  .dropdown-content span{
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .navbar{
+    display: flex;
+    gap: 20px;
+  }
+.nav2>a>img{
+    width: 100px;
+    padding-top: 0px;
+    padding-left: 40px;
+    padding-right: 0px;
+    /* padding-bottom: ; */
+    
+}
+.nav1{
+    padding-left: 0px;
+    
+}
+.nav-contianer > div {
+    margin: 0;
+    padding: 0;
+}
+.search{
+    border: 1px solid transparent;
+    border-radius: 35px;
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+}
+.navbar-last a{
+    text-decoration: none;
+    padding-top: 12px;
+}
+.navbar-last{
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  
+}
+.login{
+  color: black;
+}
+.singup{
+    background-color: #111026;
+    color: white;
+    border-radius: 35px;
+    margin-left: auto ;
+    margin-right: auto;
+    text-align: center;
+    width: 50px;
+    padding: 10px 10px;
+    /* padding-left: 4%; */
+}
+
+
+@media only screen and (max-width: 970px){
+
+  .navbar{
+    display: none;
+  }
+
+}

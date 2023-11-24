@@ -1,0 +1,80 @@
+/* src/Navbar.css */
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500;1,600&display=swap');
+body{
+  background-color: #F8F7F4;
+}
+.navbar {
+    background-color: #F8F7F4;
+    color: #111026;
+    padding: 15px;
+    /* box-shadow: 0 2px 5px #F8F7F4; */
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+    font-size: 13px;
+    
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  /* Dropdown styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 0.5px solid transparent;
+    border-radius: 10px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #111026;
+    padding: 20px 25px;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dribble_icon{
+    display: flex;
+    position: relative;
+    top: -1px;
+    width: 100%;
+}
+
+.navbar{
+  display: flex;
+  gap: 20px;
+}
+.navbar-wrap{
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr ;
+
+}
+.item-2{
+  grid-row: 1;
+}
+.logo{
+  width: 30px;
+  height: 20px;
+}
