@@ -1,5 +1,5 @@
 import React from 'react'
-import './NavBarNew.css'
+import './NavbarNew.css'
 import dribbble_logo from '../assets/dribbble-icon.png'
 import { CiSearch } from "react-icons/ci";
 
